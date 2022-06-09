@@ -80,5 +80,5 @@ BEGIN
     END IF;
     END LOOP;
 END;
-
+ 
 SELECT product_nm, quantity, sales_price, tax FROM sales_detail_tbl;
